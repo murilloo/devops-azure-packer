@@ -7,7 +7,9 @@ Example pipeline using Packer to create a server image on top of Azure with cust
 - Ansible = 2.9.2
 
 ## Create Azure resource group
-```az group create -n myResourceGroup -l eastus```
+```
+az group create -n myResourceGroup -l eastus
+```
 
 ## Create Azure credentials
 ```
@@ -25,7 +27,7 @@ AZURE_SUBSCRIPTION_ID="xxxxxxxxx"
 ```
 
 ## Goals
-- To bootstrap a server image running Ubuntu Linux
+- To bootstrap a server image running Ubuntu 16.04 LTS
 - To install Nginx on top of it
 - To publish it to Azure
 
