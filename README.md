@@ -2,6 +2,7 @@
 Example pipeline using Packer to create a server image on top of Azure with customized configuration
 
 ## Requirements
+- Azure CLI >= 2.0.78 (https://docs.microsoft.com/en-us/cli/azure)
 - Packer >= 1.5.1 (https://packer.io/downloads.html)
 - Python version = 3.7.5
 - Ansible = 2.9.2
