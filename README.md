@@ -9,7 +9,7 @@ Example pipeline using Packer to create a server image on top of Azure with cust
 
 ## Create Azure resource group
 ```
-az group create -n myResourceGroup -l eastus
+az group create -n devops-azure-packer-pipeline -l eastus
 ```
 
 ## Create Azure credentials
