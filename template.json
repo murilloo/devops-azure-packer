@@ -30,6 +30,7 @@
     "location": "East US",
     "vm_size": "Standard_DS2_v2"
   }],
+
   "provisioners": [{
     "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
     "inline": [
